@@ -1,0 +1,26 @@
+{
+  "name": "parcel-experiment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sh21kang/parcel-experiment.git",
+  "author": "sangho <sh21kan@naver.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "node-sass": "^4.12.0",
+    "postcss-modules": "^1.4.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "typography": "^0.16.19"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html -d build --public-url ./"
+  }
+}
